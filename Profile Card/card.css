@@ -1,0 +1,107 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(219, 210, 210);
+    font-family:"roboto",sans-serif;
+}
+.main{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    background-color: white;
+    height: 400px;
+    width: 330px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    border: 3px solid purple;
+    
+}
+.a{
+    padding-top: 5px;
+    line-height: 55px;
+
+}
+.a>h1{
+    font-size: 28px;
+    
+}
+.a>p{
+    font-size: 23px;
+    font-weight:400;
+    color: rgb(105, 104, 104);
+    text-decoration: none;
+}
+.b{
+    background-color: rgb(243, 245, 245);
+    position: absolute;
+    align-items: center;
+    display: flex;
+    margin-left:82px ;
+    height: 40px;
+    width: 170px;
+    color: rgb(115, 12, 211);
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 5px;
+    font-style: unset;
+}
+.a>img{
+    height: 200px;
+    width: 200px;
+    
+}
+.main img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 25px;
+    border: 3px solid #6c63ff;
+    
+}
+.c{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    
+
+}
+.box{
+    border: 1.5px solid purple;
+    width: 80px;
+    height: 40px;
+    color: rgb(57, 55, 55);
+    text-decoration: none;
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    padding-right:8px ;
+    font-size: 18px;
+    gap: 2px;
+
+
+}
+.box:hover{
+    background-color: #6c63ff;
+    color: white;
+    cursor: pointer;
+}
+.ri-twitter-fill{
+    color: blue;
+}
+
+
+
+                                                                  
+
+
+
