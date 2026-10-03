@@ -1,0 +1,147 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(./nature\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: roboto;
+    color: white;
+    
+    
+}
+.main{
+    display: flex;
+    margin-left: 600px;
+    margin-top: 150px;
+    border: 3px solid white;
+    height: 450px;
+    width: 350px;
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+}
+.a{
+    padding-left: 25px;
+    padding-top: 60px;
+    line-height: 38px;
+    
+}
+#welcome{
+    font-weight: 470;
+}
+h1{
+    font-size: 37px;
+}
+.login{
+    font-size: 21px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #0b6bb4;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.login:active{
+    transition: 70ms;
+    scale: 0.9;
+    background-color: rgb(9, 130, 9);
+    transform: translateY(0);
+    
+    
+}
+.href{
+    color: rgb(237, 30, 237);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+.p{
+    padding-left: 40px;
+}
+.ri-eye-off-line{
+    padding-left: 150px;
+    font-size: 25px;
+}
+.ri-user-line{
+    padding-left: 145px;
+    font-size: 25px;
+    
+}
+.user>input{
+    width: 305px;
+    height:50px ;
+    border-radius: 10px;
+    text-indent: 10px;
+    margin-top: 20px;
+    background: transparent;
+    border: 1.5px solid white;
+    box-sizing: border-box;
+    
+
+}
+.user>input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+.user{
+    position: relative;
+    width: 305px;
+    
+}
+.user i{
+    position: absolute;
+    right: 15px;
+    top:63%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 20px;
+    pointer-events: none;
+
+}
+.password{
+    position:relative ;
+    width: 305px;
+}
+.password>input{
+    width: 305px;
+    height: 50px;
+    background: transparent;
+    text-indent: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1.5px solid white ;
+}
+.password>input::placeholder{
+    color: white;
+    font-size: 17px;
+}
+.password i{
+    position: absolute;
+    top: 63%;
+    right: 15px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    pointer-events: none;
+    color: white;
+}
+input:focus{
+    border: 2px solid cyan;
+    outline: none;
+}
+input{
+    color: white;
+    font-size: 18px;
+}
+
+
+
+
+ 
